@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shape Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Shape Calculator</h1>
+    <label for="shape">Select Shape:</label>
+    <select id="shape">
+      <option value="rectangle">Rectangle</option>
+      <option value="circle">Circle</option>
+      <option value="triangle">Triangle</option>
+      <option value="cube">Cube</option>
+      <option value="sphere">Sphere</option>
+    </select>
+
+    <div id="inputFields"></div>
+    <button onclick="calculate()">Calculate</button>
+    <button onclick="reset()">Reset</button>
+
+    <div id="results"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
